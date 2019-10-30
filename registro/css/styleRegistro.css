@@ -1,0 +1,135 @@
+    /*MOSTRAR Y OCULTAR FORMULARIOS*/
+    .divOculto {
+        display: none;
+    }
+
+    .divVisible {
+        display: block;
+    }
+
+    .bg-color {
+        background-color: rgb(48, 9, 36, 0.5);
+    }
+
+    /*CUERPO*/
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: 'Roboto';
+    }
+
+
+    /*FORMULARIOS*/
+    .contenedorFormularios {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contenido-form {
+        background-color: rgb(48, 9, 36);
+        color: white;
+        border-radius: 5px;
+        box-shadow: 0 0 7px rgba(0, 0, 15, 0.8);
+        padding: 20px;
+        width: 350px;
+        height: 400px;
+    }
+
+    .formulario {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:center;
+    }
+
+    .formTitulo {
+        height: 60px;
+        margin-bottom: 20px;
+    }
+
+    .inputForm {
+        border-radius: 5px;
+        width: 90%;
+        height: 30px;
+        padding: 5px;
+        margin-bottom: 20px;
+    }
+    /*FIN FORMULARIOS*/
+
+    /*BOTONES*/
+
+    .botones {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+    .boton {
+        width: 43%;
+        height: 35px;
+        padding: 5px;
+        background-color: rgb(48, 9, 36);
+        border-radius: 5px;
+        border: 0;
+        color: white;
+        font-size: 16px;
+        border-bottom: 1px solid white;
+    }
+
+    .boton-popUp {
+        width: 250px;
+        height: 40px;
+    }
+
+    .boton:hover {
+        background-color: rgb(31, 6, 23);
+        cursor: pointer;
+    }
+    /*FIN BOTONES*/
+
+    /*FORMULARIO COMPRA*/
+
+    .contenido-form--compra {
+        height: 500px;
+    }
+    .formTituloCompra {
+        width: 80%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .titleLabel {
+        width: 90%;
+        height: 20px;
+        margin-top: 10px;
+    }
+    .select {
+        margin-top: 10px;
+    }
+
+    .boletas {
+        margin-top: 10px;
+        height: 20px;
+        width: 85%;
+    }
+
+    .botones--compra {
+        margin-top: 0px;
+    }
+    .boton--compra {
+        transition: all .4s;
+    }
+    .boton--compra:hover {
+        font-weight: 700;
+        background-color: rgb(223, 25, 58);
+        color: black;
+    }
+
+    /*FIN FORMULARIO COMPRA*/
+

@@ -1,0 +1,51 @@
+.contenedorFormulario{
+        display: flex;
+        justify-content: center;
+}
+
+form{
+    width: 50%;
+
+    margin: auto;
+    background: rgba(101, 101, 112, 0.479);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 200px;
+    border-radius: 10px;
+    margin-top: auto;
+}
+
+h2{
+    font-size: 61px;
+    color: rgb(48, 9, 36);
+    font-family: 'Cardo';
+    margin:0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input, textarea, select{
+width: 100%;
+margin-bottom: 20px;
+padding: 7px;
+box-sizing: border-box;
+font-size: 16px;
+border: none;
+border-radius: 7px;
+}
+
+#botonContac{
+    background:rgb(74, 74, 87);
+    color: cornsilk;
+}
+
+#botonContac:hover{
+    background-color: rgb(57, 57, 61);
+}
+
+@media (max-width:480px){
+    form{
+        width: 100%;
+    }
+}
+

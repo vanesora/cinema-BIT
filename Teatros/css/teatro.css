@@ -1,0 +1,104 @@
+
+body{
+    background-image: url(../img_header/background.jpg);
+}
+
+/* start main */
+.contenedor{
+    display: grid;
+    grid-template-columns: 7fr 2fr;
+   
+    grid-row-gap: 10px;
+    
+}
+
+.teatros {
+    grid-column: 1;
+}
+
+.ciudades{
+    padding: 30px 0px 10px 15px;
+    font-size: 36px;
+}
+
+.teatros img{
+    grid-column: 1;
+    width: 300px;
+    height: 200px;
+    box-shadow: 1px 7px 7px 1px rgb(48, 9, 36);
+}
+
+.teatros iframe{
+    width: auto;
+    height: 120px;
+    padding: 10px 0px 0px 0px;
+}
+
+.teatros iframe:hover{
+    filter: saturate(180%);
+}
+
+.atlantis{
+    grid-row: 1;
+}
+
+.barbara{
+    grid-row: 2;
+}
+.cc{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding: 15px 0px 0px 15px;
+}
+
+.texto_salas{
+    padding: 30px 0px 0px 0px;
+}
+
+
+/* end main */
+
+
+/* start acordeon*/
+
+.acordeon{
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+    color:rgb(48, 9, 36);
+}
+
+.acordeon{
+    display: block;
+}
+  
+.acontenido {
+    display: none;
+}
+  
+.acontenido.activar {
+    display: block;
+}
+
+/* end acordeon*/
+
+
+/* start responsive*/
+@media screen and (max-width: 750px){
+    h1{
+        font-size: 50px;
+    }
+    .contenedor{
+        grid-template-columns: 5fr;
+        grid-row-gap: 5px;
+        
+    }
+    .cc{
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: 1fr 1fr;
+        padding: 5px 0px 0px 5px;
+    }
+
+}
+
+/* end responsive*/

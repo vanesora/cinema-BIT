@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styleRegistro.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cardo|Roboto:100,300,400,700&display=swap" rel="stylesheet">
+    <title>Registro</title>
+
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="../favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--Fin Favicon-->
+</head>
+
+<body>
+
+    <!-- Barra de fecha -->
+    <div class="barfecha">
+        <p id="fecha"></p>
+    </div>
+
+    <!-- Header -->
+
+    <header>
+
+        <!-- Navegación de escritorio -->
+
+        <div class="nav-izquierda">
+            <div class="logo">
+                <img src="img_header/logo.png" alt="">
+            </div>
+        </div>
+
+        <div class="nav-derecha">
+
+            <!-- Barra íconos sociales -->
+            <div class="social">
+                <a href="https://fb.com" target="_blank"><img src="img_header/facebook.svg" alt="Facebook"></a>
+                <a href="https://instagram.com" target="_blank"><img src="img_header/instagram.svg" alt="Instagram"></a>
+                <a href="https://twitter.com" target="_blank"><img src="img_header/twitter.svg" alt="Twitter"></a>
+                <a href="https://youtube.com" target="_blank"><img src="img_header/youtube.svg" alt="YouTube"></a>
+            </div>
+
+            <!-- Barra de links de navegación -->
+            <nav class="navlinks">
+                <ul>
+                    <li><a href="../index/index.html">Inicio</a></li>
+                    <li class="dropdowntoggle"><a href="../Cartelera/cartelera.html">Cartelera</a>
+                    </li>
+                    <li><a href="../Teatros/Teatros.html">Nuestras salas</a></li>
+                    <li><a href="../Confiteria/confiteria.html">Confitería</a></li>
+                    <li class="dropdowntoggle"><a href="../Cartelera/cartelera.html">Compra</a>
+                        <ul class="navdropdown">
+                            <li><a href="../registro/registro.html">Registro</a></li>
+                            <li><a href="../compra/compra.html">Compra</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../Contactenos/contactanos.html">Contáctanos</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <!-- Navegación para móvil -->
+
+        <div class="logomovil">
+            <img src="img_header/logo.png" alt="">
+        </div>
+
+        <div class="navmovil">
+
+            <!-- Íconos sociales -->
+
+            <div class="social">
+                <a href="https://fb.com" target="_blank"><img src="img_header/facebook.svg" alt="Facebook"></a>
+                <a href="https://instagram.com" target="_blank"><img src="img_header/instagram.svg" alt="Instagram"></a>
+                <a href="https://twitter.com" target="_blank"><img src="img_header/twitter.svg" alt="Twitter"></a>
+                <a href="https://youtube.com" target="_blank"><img src="img_header/youtube.svg" alt="YouTube"></a>
+            </div>
+
+            <!-- Menú hamburguesa -->
+
+            <div class="navburger">
+                <img src="img_header/burger.png" alt="" class="burger">
+
+
+                <!-- Barra de links de navegación -->
+
+                <nav class="linksmovil">
+                    <ul>
+                        <ul>
+                            <li><a href="../index/index.html">Inicio</a></li>
+                            <li class="dropdowntoggle"><a href="../Cartelera/cartelera.html">Cartelera</a>
+                            </li>
+                            <li><a href="../Teatros/Teatros.html">Nuestras salas</a></li>
+                            <li><a href="../Confiteria/confiteria.html">Confitería</a></li>
+                            <li class="dropdowntoggle"><a href="../Cartelera/cartelera.html">Compra</a>
+                                <ul class="navdropdown">
+                                    <li><a href="../registro/registro.html">Registro</a></li>
+                                    <li><a href="../compra/compra.html">Compra</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../Contactenos/contactanos.html">Contáctanos</a></li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+        </div>
+
+    </header>
+
+    <div class="contenedorFormularios" id="contenedorFormularios">
+        <!--REGISTRO-->
+        <!--Botón de registro-->
+        <div class="btn-registro" id="btn-registro">
+            <button class="boton boton-popUp" onclick="mostrarForm()">Regístrate</button>
+        </div>
+        <!--Fin botón de registro-->
+        <!--Formulario de registro-->
+        <div class="divOculto" id="formularioRegistro">
+            <div class="contenido-form">
+
+                <form class="formulario">
+                    <h1 class="formTitulo">Registrate</h1>
+                    <input class="inputForm" type="text" id="nombre" placeholder="Nombre">
+                    <input class="inputForm" type="text" id="apellido" placeholder="Apellido">
+                    <input class="inputForm" type="email" id="correo" placeholder="Correo">
+                    <input class="inputForm" type="password" id="contrasena" placeholder="Contraseña">
+                    <div class="botones">
+                        <input class="boton" type="button" onclick="validar()" value="Registrarse" />
+                        <button class="cerrarFormulario boton" onclick="ocultarForm()">Cerrar</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+        <!--Fin formulario de registro-->
+        <!--FIN REGISTRO-->
+        <!--COMPRA-->
+        <!--Botón de compra-->
+        <div class="btn-compra" id="btn-compra">
+            <button class="boton boton-popUp" onclick="mostrarCompra()">Comprar</button>
+        </div>
+        <!--Fin botón de compra-->
+        <!--Formulario de compra-->
+        <div class="divOculto" id="formularioCompra">
+            <div class="contenido-form contenido-form--compra">
+
+                <form class="formulario">
+                    <h3 class="formTituloCompra" id="bienvenido"></h3>
+                    <label for="" class="boton titleLabel">Selecciona la película</label>
+                    <label class="titleLabel">Cine Comercial</label>
+                    <select id="cineComercial" class="inputForm select">
+                        <option value="0">Seleccione</option>
+                        <option value="1">Un amigo abominable</option>
+                        <option value="2">Proyecto Géminis</option>
+                        <option value="3">Guason</option>
+                        <option value="4">Maléfica: Dueña del mal</option>
+                        <option value="5">Midsomar</option>
+                        <option value="6">Terminator: Destino oculto</option>
+                    </select>
+                    <label class="titleLabel">Cine Alternativo</label>
+                    <select id="cineAlternativo" class="inputForm select">
+                        <option value="0">Seleccione</option>
+                        <option value="1">Blinded by the light</option>
+                        <option value="2">The Farewell</option>
+                        <option value="3">Colette</option>
+                        <option value="4">Los Silencios</option>
+                        <option value="5">El árbol magnético</option>
+                        <option value="6">Le jeune Ahmed</option>
+                        <option value="7">Sea of Shadows</option>
+                        <option value="8">Never Look Away</option>
+                        <option value="9">Sibyl</option>
+                        <option value="10">Kaviar</option>
+                        <option value="11">God exists, her name is Petrunya</option>
+                        <option value="12">Why do not you just die</option>
+                        <option value="13">KoKo-Di KoKo-Da</option>
+                        <option value="14">Parasite</option>
+                        <option value="15">Bacurau</option>
+                        <option value="16">E agora lembra-me</option>
+                        <option value="17">O Termómetro de Galileu</option>
+                        <option value="18">10 Giorni Senza Mamma</option>
+
+                    </select>
+                    <label class="boton titleLabel">Selecciona el teatro</label>
+                    <select id="teatro" class="inputForm select">
+                        <option value="0">Seleccione</option>
+                        <option value="1">Centro Comercial Atlantis</option>
+                        <option value="2">Centro Comercial La Hacienda Santa Barbara</option>
+                        <option value="3">Centro Comercial Santafé</option>
+                        <option value="4">Plaza Imperial Centro Comercial</option>
+                        <option value="5">El Tesoro Parque Comercial</option>
+                        <option value="6">Centro Comercial Plaza del Poblado</option>
+                        <option value="7">Centro Comercial Centenario</option>
+                        <option value="8">Centro Comercial Unico Outlet</option>
+                        <option value="9">Centro Comercial Buenavista</option>
+                        <option value="10">Portal Del Prado Centro Comercial</option>
+                    </select>
+                    <label for="boletas" class="boton titleLabel">¿Cuántas boletas deseas comprar?</label>
+                    <input type="number" name="boletas" id="boleta" class="inputForm boletas" min=1 id="">
+                    <div class="botones botones--compra">
+                        <button class="boton boton--compra" id="compra" onclick="compraExitosa()">Comprar</button>
+                        <button class="cerrarFormulario boton" onclick="ocultarCompra()">Cerrar</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+        <!--Fin formulario de compra-->
+        <!--FIN COMPRA-->
+    </div>
+
+    <!-- Footer -->
+    <footer>
+            <div class="footer-izquierda">
+                <h2>Cinema Colibrí</h2>
+                <p>Calle 123 #45 - 67, Bogotá</p>
+                <p>Línea de atención: (+57 1) 2365478</p>
+                <p><a href="#">Sobre nosotros</a></p>
+                <p>Copyright</p>
+            </div>
+            <div class="footer-derecha">
+                <img src="img_header/logo.png" alt="">
+            </div>
+        </footer>
+
+    <script src="js/scriptRegistro.js"></script>
+</body>
+
+</html>

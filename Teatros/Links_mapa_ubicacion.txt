@@ -1,0 +1,29 @@
+﻿Centro Comercial Atlantis:
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.5947509392518!2d-74.05793128648496!3d4.666115043258771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a5f862c9c01%3A0x513412ba1ae6abbd!2sCentro%20Comercial%20Atlantis%20Plaza!5e0!3m2!1ses-419!2sco!4v1571793248601!5m2!1ses-419!2sco" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+Centro Comercial La Hacienda Santa Barbara:
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7952.821514170102!2d-74.03593643199046!3d4.6984833375080015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9aa6fcbe7e6b%3A0x4fb3d229a57bca45!2sCentro%20Comercial%20Hacienda%20Santa%20B%C3%A1rbara!5e0!3m2!1ses-419!2sco!4v1571793309515!5m2!1ses-419!2sco" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+Centro Comercial Santafé:
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63619.83161962079!2d-74.07485837868585!3d4.728416461827132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f8593cfb53fab%3A0x7e1314c3e84e41a2!2sCentro%20Comercial%20Santaf%C3%A9!5e0!3m2!1ses-419!2sco!4v1571793366105!5m2!1ses-419!2sco" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+Plaza Imperial Centro Comercial:
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63619.83161962079!2d-74.07485837868585!3d4.728416461827132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x628847c6079ba902!2sPlaza%20Imperial%20Centro%20Comercial!5e0!3m2!1ses-419!2sco!4v1571793424867!5m2!1ses-419!2sco" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+El Tesoro Parque Comercial:
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15865.758150938324!2d-75.5767725930379!3d6.205607610213212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacb563511f221ff3!2sEl%20Tesoro%20Parque%20Comercial!5e0!3m2!1ses-419!2sco!4v1571793492583!5m2!1ses-419!2sco" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+Centro Comercial Plaza del Poblado:
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15865.758150938324!2d-75.5767725930379!3d6.205607610213212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x440e794c33d1d3db!2sCentro%20Comercial%20Plaza%20del%20Poblado!5e0!3m2!1ses-419!2sco!4v1571793524807!5m2!1ses-419!2sco" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+Centro Comercial Centenario:
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90118.19642129031!2d-76.527120393623!3d3.4232427361369626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1fe1b69b3f9dcb5!2sCentro%20Comercial%20Centenario!5e0!3m2!1ses-419!2sco!4v1571793597810!5m2!1ses-419!2sco" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+Centro Comercial Unico Outlet:
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90118.19642129031!2d-76.527120393623!3d3.4232427361369626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6d1ebd972d149b8!2sPlazoleta%20de%20Comidas%20Unico!5e0!3m2!1ses-419!2sco!4v1571793686437!5m2!1ses-419!2sco" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+Centro Comercial Buenavista:
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125339.69734191167!2d-74.87538684301447!3d10.973520131871556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42c4d4ad7ec73%3A0x9ab6eda3d5142548!2sCentro%20Comercial%20Buenavista!5e0!3m2!1ses-419!2sco!4v1571793725069!5m2!1ses-419!2sco" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+Portal Del Prado Centro Comercial:
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250682.56153267712!2d-74.86044448918022!3d10.969786556949678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d7b1b87cb8d%3A0x27ff0f65017342e7!2sPortal%20Del%20Prado%20Centro%20Comercial!5e0!3m2!1ses-419!2sco!4v1571793758584!5m2!1ses-419!2sco" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>

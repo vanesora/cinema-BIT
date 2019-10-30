@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cinema Colibrí</title>
+
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="../favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--Fin Favicon-->
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/teatro.css">
+    <link href="https://fonts.googleapis.com/css?family=Cardo|Roboto:100,300,400,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Barra de fecha -->
+    <div class="barfecha">
+        <p id="fecha"></p>
+    </div>
+
+    <!-- Header -->
+
+    <header>
+
+        <!-- Navegación de escritorio -->
+
+        <div class="nav-izquierda">
+            <div class="logo">
+                <img src="img_header/logo.png" alt="">
+            </div>
+        </div>
+
+        <div class="nav-derecha">
+
+            <!-- Barra íconos sociales -->
+            <div class="social">
+                <a href="https://fb.com" target="_blank"><img src="img_header/facebook.svg" alt="Facebook"></a>
+                <a href="https://instagram.com" target="_blank"><img src="img_header/instagram.svg" alt="Instagram"></a>
+                <a href="https://twitter.com" target="_blank"><img src="img_header/twitter.svg" alt="Twitter"></a>
+                <a href="https://youtube.com" target="_blank"><img src="img_header/youtube.svg" alt="YouTube"></a>
+            </div>
+
+            <!-- Barra de links de navegación -->
+            <nav class="navlinks">
+                <ul>
+                    <li><a href="../index/index.html">Inicio</a></li>
+                    <li class="dropdowntoggle"><a href="../Cartelera/cartelera.html">Cartelera</a>
+                    </li>
+                    <li><a href="../Teatros/Teatros.html">Nuestras salas</a></li>
+                    <li><a href="../Confiteria/confiteria.html">Confitería</a></li>
+                    <li class="dropdowntoggle"><a href="../Cartelera/cartelera.html">Compra</a>
+                        <ul class="navdropdown">
+                            <li><a href="../registro/registro.html">Registro</a></li>
+                            <li><a href="../compra/compra.html">Compra</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../Contactenos/contactanos.html">Contáctanos</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <!-- Navegación para móvil -->
+
+        <div class="logomovil">
+            <img src="img_header/logo.png" alt="">
+        </div>
+
+        <div class="navmovil">
+
+            <!-- Íconos sociales -->
+
+            <div class="social">
+                <a href="https://fb.com" target="_blank"><img src="img_header/facebook.svg" alt="Facebook"></a>
+                <a href="https://instagram.com" target="_blank"><img src="img_header/instagram.svg" alt="Instagram"></a>
+                <a href="https://twitter.com" target="_blank"><img src="img_header/twitter.svg" alt="Twitter"></a>
+                <a href="https://youtube.com" target="_blank"><img src="img_header/youtube.svg" alt="YouTube"></a>
+            </div>
+
+            <!-- Menú hamburguesa -->
+
+            <div class="navburger">
+                <img src="img_header/burger.png" alt="" class="burger">
+
+
+                <!-- Barra de links de navegación -->
+
+                <nav class="linksmovil">
+                    <ul>
+                        <li><a href="../index/index.html">Inicio</a></li>
+                        <li class="dropdowntoggle"><a href="../Cartelera/cartelera.html">Cartelera</a>
+                        </li>
+                        <li><a href="../Teatros/Teatros.html">Nuestras salas</a></li>
+                        <li><a href="../Confiteria/confiteria.html">Confitería</a></li>
+                        <li class="dropdowntoggle"><a href="../Cartelera/cartelera.html">Compra</a>
+                            <ul class="navdropdown">
+                                <li><a href="../registro/registro.html">Registro</a></li>
+                                <li><a href="../compra/compra.html">Compra</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../Contactenos/contactanos.html">Contáctanos</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+        </div>
+
+    </header>
+
+
+    <!-- Sección principal -->
+    <main>
+        <h1>Teatros colibrí</h1>
+        <div class="contenedor">
+            <div class="teatros">
+                <div class="bogota">
+                    <h2 class="ciudades"><b>Bogotá:</b></h2>
+                    <div class="atlantis cc">
+                        <div class="img_salas">
+                            <h2>Centro Comercial Atlantis:</h2>
+                            <img src="img_teatros/cine1.jpg" alt="atlantis">
+                        </div>
+                        <div class="texto_salas">
+                            <p><b>Dirección:<br>Cl. 81 #13-05, Bogotá, Cundinamarca</b></p>
+                            <br>
+                            <p><b>Localización:</b></p>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.5947509392518!2d-74.05793128648496!3d4.666115043258771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a5f862c9c01%3A0x513412ba1ae6abbd!2sCentro%20Comercial%20Atlantis%20Plaza!5e0!3m2!1ses-419!2sco!4v1571793248601!5m2!1ses-419!2sco"
+                                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                    <a href="#bog-1" class="acordeon" id="acorb" onclick="cambiob()">Mostrar más salas en Bogotá</a>
+                    <div class="acontenido" id="bog-1">
+                        <div class="barbara cc">
+                            <div class="img_salas">
+                                <h2>C.C. Hacienda Santa Bárbara:</h2>
+                                <img src="img_teatros/cine2.jpg" alt="barbara">
+                            </div>
+                            <div class="texto_salas">
+                                <p><b>Dirección:<br>Cra. 7 #115 - 72, Bogotá, Usaquén</b></p>
+                                <br>
+                                <p><b>Localización:</b></p>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7952.821514170102!2d-74.03593643199046!3d4.6984833375080015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9aa6fcbe7e6b%3A0x4fb3d229a57bca45!2sCentro%20Comercial%20Hacienda%20Santa%20B%C3%A1rbara!5e0!3m2!1ses-419!2sco!4v1571793309515!5m2!1ses-419!2sco"
+                                    width="600" height="450" frameborder="0" style="border:0;"
+                                    allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                        <div class="santa cc">
+                            <div class="img_salas">
+                                <h2>C.C. Hacienda Santa Bárbara:</h2>
+                                <img src="img_teatros/cine3.jpg" alt="santa">
+                            </div>
+                            <div class="texto_salas">
+                                <p><b>Dirección:<br>Cra. 7 #115 - 72, Bogotá, Usaquén</b></p>
+                                <br>
+                                <p><b>Localización:</b></p>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7952.821514170102!2d-74.03593643199046!3d4.6984833375080015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9aa6fcbe7e6b%3A0x4fb3d229a57bca45!2sCentro%20Comercial%20Hacienda%20Santa%20B%C3%A1rbara!5e0!3m2!1ses-419!2sco!4v1571793309515!5m2!1ses-419!2sco"
+                                    width="600" height="450" frameborder="0" style="border:0;"
+                                    allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cali">
+                    <h2 class="ciudades"><b>Cali:</b></h2>
+                    <div class="centenario cc">
+                        <div class="img_salas">
+                            <h2>C. C. Centenario:</h2>
+                            <img src="img_teatros/cine4.jpg" alt="centenario">
+                        </div>
+                        <div class="texto_salas">
+                            <p><b>Dirección:<br>Av. 4Nte. #7-46, Cali, Valle del Cauca</b></p>
+                            <br>
+                            <p><b>Localización:</b></p>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90118.19642129031!2d-76.527120393623!3d3.4232427361369626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1fe1b69b3f9dcb5!2sCentro%20Comercial%20Centenario!5e0!3m2!1ses-419!2sco!4v1571793597810!5m2!1ses-419!2sco"
+                                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                    <a href="#cal-1" class="acordeon" id="acorc" onclick="cambioc()">Mostrar más salas en Cali</a>
+                    <div class="acontenido" id="cal-1">
+                        <div class="unico cc">
+                            <div class="img_salas">
+                                <h2>C. C. Único Outlet:</h2>
+                                <img src="img_teatros/cine5.jpg" alt="unico">
+                            </div>
+                            <div class="texto_salas">
+                                <p><b>Dirección:<br>Cl. 52 #3-29, Cali, Valle del Cauca</b></p>
+                                <br>
+                                <p><b>Localización:</b></p>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.5704384146716!2d-76.53938868553661!3d3.4540799974859517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a66ffd0acf01%3A0x1fe1b69b3f9dcb5!2sCentro%20Comercial%20Centenario!5e0!3m2!1ses-419!2sco!4v1571887007119!5m2!1ses-419!2sco"
+                                    width="600" height="450" frameborder="0" style="border:0;"
+                                    allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="medellin">
+                        <h2 class="ciudades"><b>Medellín:</b></h2>
+                        <div class="poblado cc">
+                            <div class="img_salas">
+                                <h2>C. C. Plaza del Poblado:</h2>
+                                <img src="img_teatros/cine6.jpg" alt="poblado">
+                            </div>
+                            <div class="texto_salas">
+                                <p><b>Dirección:<br> Cl. 10 #42-49, Medellín, Antioquia</b></p>
+                                <br>
+                                <p><b>Localización:</b></p>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15865.758150938324!2d-75.5767725930379!3d6.205607610213212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x440e794c33d1d3db!2sCentro%20Comercial%20Plaza%20del%20Poblado!5e0!3m2!1ses-419!2sco!4v1571793524807!5m2!1ses-419!2sco"
+                                    width="600" height="450" frameborder="0" style="border:0;"
+                                    allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                        <a href="#med-1" class="acordeon" id="acorc" onclick="cambioc()">Mostrar más salas en
+                            Medellín</a>
+                        <div class="acontenido" id="med-1">
+                            <div class="unico cc">
+                                <div class="img_salas">
+                                    <h2>El Tesoro Parque Comercial:</h2>
+                                    <img src="img_teatros/cine7.jpg" alt="unico">
+                                </div>
+                                <div class="texto_salas">
+                                    <p><b>Dirección:<br>Cra. 25a #1a Sur 45, Medellín, Antioquia</b></p>
+                                    <br>
+                                    <p><b>Localización:</b></p>
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15865.758150938324!2d-75.5767725930379!3d6.205607610213212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacb563511f221ff3!2sEl%20Tesoro%20Parque%20Comercial!5e0!3m2!1ses-419!2sco!4v1571793492583!5m2!1ses-419!2sco"
+                                        width="600" height="450" frameborder="0" style="border:0;"
+                                        allowfullscreen=""></iframe>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bquilla">
+                            <h2 class="ciudades"><b>Barranquilla:</b></h2>
+                            <div class="poblado cc">
+                                <div class="img_salas">
+                                    <h2>Centro Comercial Buenavista:</h2>
+                                    <img src="img_teatros/cine8.jpg" alt="buenavista">
+                                </div>
+                                <div class="texto_salas">
+                                    <p><b>Dirección:<br>Cl. 98 #52-115, Barranquilla, Atlántico</b></p>
+                                    <br>
+                                    <p><b>Localización:</b></p>
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125339.69734191167!2d-74.87538684301447!3d10.973520131871556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42c4d4ad7ec73%3A0x9ab6eda3d5142548!2sCentro%20Comercial%20Buenavista!5e0!3m2!1ses-419!2sco!4v1571793725069!5m2!1ses-419!2sco"
+                                        width="600" height="450" frameborder="0" style="border:0;"
+                                        allowfullscreen=""></iframe>
+                                </div>
+                            </div>
+                            <a href="#baq-1" class="acordeon" id="acorc" onclick="cambioc()">Mostrar más salas en
+                                Barranquilla</a>
+                            <div class="acontenido" id="baq-1">
+                                <div class="unico cc">
+                                    <div class="img_salas">
+                                        <h2>Portal Del Prado Centro Comercial:</h2>
+                                        <img src="img_teatros/cine9.jpg" alt="prado">
+                                    </div>
+                                    <div class="texto_salas">
+                                        <p><b>Dirección:<br>Cl. 53 #46-192, Barranquilla, Atlántico</b></p>
+                                        <br>
+                                        <p><b>Localización:</b></p>
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250682.56153267712!2d-74.86044448918022!3d10.969786556949678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d7b1b87cb8d%3A0x27ff0f65017342e7!2sPortal%20Del%20Prado%20Centro%20Comercial!5e0!3m2!1ses-419!2sco!4v1571793758584!5m2!1ses-419!2sco"
+                                            width="600" height="450" frameborder="0" style="border:0;"
+                                            allowfullscreen=""></iframe>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-izquierda">
+            <h2>Cinema Colibrí</h2>
+            <p>Calle 123 #45 - 67, Bogotá</p>
+            <p>Línea de atención: (+57 1) 2365478</p>
+            <p><a href="#">Sobre nosotros</a></p>
+            <p>Copyright</p>
+        </div>
+        <div class="footer-derecha">
+            <img src="img_header/logo.png" alt="">
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="js/script.js"></script>
+    <script src="js/teatro.js"></script>
+</body>
+
+</html>

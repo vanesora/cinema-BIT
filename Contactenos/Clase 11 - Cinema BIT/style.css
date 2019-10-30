@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+/* Configuración inicial */
+body {
+    font-family: 'Roboto';
+    background-color: white;
+    background-image: url(img_header/background.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    color: rgb(36, 36, 36);
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cardo';
+}
+
+h1 {
+    font-size: 71px;
+    color: rgb(48, 9, 36);
+}
+
+h2, h3, h4 {
+    color: rgb(48, 9, 36);
+}
+
+
+/* ------- MAIN: Contenido ------- */
+main {
+    width: 80%;
+    margin: 50px auto 50px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 50px;
+    box-shadow: 5px 5px 25px rgb(107, 107, 107);
+}
+
+
+/* ------- Barra de fecha ------- */
+.barfecha {
+    background-color: black;
+    color: white;
+    z-index: 5000;
+    font-size: 11px;
+    text-align: right;
+    padding: 11px;
+}
+
+
+/* -------- HEADER ------- */
+header {
+    background-color: rgb(48, 9, 36);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    /* box-shadow: 5px 5px 25px rgb(0, 0, 0); */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 11px 0;
+    z-index: 25;
+}
+
+
+/* Navegación izquierda: Logo */
+.nav-izquierda {
+    width: 15%;
+    box-sizing: border-box;
+}
+
+.logo {
+    box-sizing: border-box;
+}
+
+.logo img {
+    max-height: 71px
+}
+
+
+/* Navegación derecha */
+.nav-derecha {
+    width: 75%;
+    box-sizing: border-box;
+}
+
+/* Barra de redes sociales */
+.social {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-bottom: 1px white solid;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social img {
+    width: 25px;
+    padding: 7px;
+}
+
+
+/* Links de navegación */
+.navlinks {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: flex-end;
+}
+
+.navlinks ul li {
+    list-style-type: none;
+    display: block;
+    float: left;
+    padding: 13px 13px 3px;
+    font-size: 13px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.navlinks ul li ul li {
+    padding: 0;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: white;
+}
+
+.navlinks a:hover {
+    text-decoration: underline;
+}
+
+/* Links de navegación: Segundo nivel */
+.navdropdown {
+    display: none;
+    position: absolute;
+    width: 200px;
+    padding-top: 21px;
+}
+
+.navdropdown a {
+    width: 178px;
+    color: white;
+    background-color: rgb(23, 9, 24);
+    padding: 11px;
+    display: block;
+    border-bottom: 1px solid white;
+}
+
+/* Ver links de Segundo nivel */
+.dropdowntoggle:hover .navdropdown {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ------- FIN HEADER ------- */
+
+
+
+
+
+
+
+
+/* ------- HEADER MOVIL ------- */
+
+/* Logo */
+.logomovil {
+    width: 100%;
+    display: none;
+}
+
+.logomovil img {
+    max-height: 50px;
+}
+
+
+/* Links de navegación (contenedor)*/
+.navmovil {
+    display: none;
+    width: 100%;
+}
+
+
+/* Menú hamburguesa */
+.navburger {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.burger {
+    max-width: 35px;
+}
+
+.navburger:hover .linksmovil {
+    display: flex;
+}
+
+
+
+/* Navegación para móvil (links) */
+.linksmovil {
+    width: 100%;
+    display: none;
+    box-sizing: border-box;
+    justify-content: center;
+    padding-bottom: 11px;
+}
+
+.linksmovil ul li {
+    list-style-type: none;
+    display: block;
+    float: left;
+    padding: 13px 13px 3px;
+    font-size: 11px;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.linksmovil ul li ul li {
+    padding: 0;
+}
+
+.linksmovil a {
+    text-decoration: none;
+    color: white;
+}
+
+.linksmovil a:hover {
+    text-decoration: underline;
+}
+
+/* ------- HEADER MOVIL ------- */
+
+
+
+
+
+
+
+/* ------- MAIN ------- */
+
+main {
+    height: 100vh;
+}
+
+/* ------- FIN MAIN ------- */
+
+
+
+
+
+
+
+/* -------- FOOTER ------- */
+
+footer {
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px;
+    bottom: 0px;
+    color: rgb(48, 9, 36);
+    box-shadow: black 5px 5px 15px;
+    line-height: 1.7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer a {
+    color: rgb(48, 9, 36);;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-izquierda {
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.footer-derecha {
+    width: 20%;
+    box-sizing: border-box;
+}
+
+.footer-derecha img {
+    width: 100%;
+}
+
+/* -------- FIN FOOTER ------- */
+
+
+
+
+
+
+
+
+/* ------- Responsive ------- */
+
+/* Esconder header de escritorio */
+@media screen and (max-width: 750px) {
+
+    header {
+        padding: 0;
+    }
+
+    .navmovil {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .logomovil {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-derecha, .nav-izquierda {
+        display: none;
+    }
+
+    .social {
+        justify-content: center;
+        padding: 7px 0;
+    }
+
+    .social img {
+        width: 15px;
+    }
+}
